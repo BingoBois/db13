@@ -1,0 +1,4 @@
+# Own mysql image because importing didn't work
+FROM mysql:5.7.26
+RUN mkdir -p /root
+COPY mysqldump /root
