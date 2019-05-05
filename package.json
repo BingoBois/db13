@@ -1,0 +1,30 @@
+{
+  "name": "DB13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2joocy/DB13.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2joocy/DB13/issues"
+  },
+  "dependencies": {
+    "mysql": "2.17.1",
+    "neo4j-driver": "1.7.4",
+    "dotenv": "8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "12.0.0",
+    "@types/mysql": "2.15.6",
+    "nodemon": "1.19.0"
+  },
+  "homepage": "https://github.com/2joocy/DB13#readme"
+}
